@@ -2,6 +2,7 @@
   "name": "idiacoin-demo",
   "version": "1.0.0",
   "description": "Idiacoin Demo Web Application with Aza AI Chat Assistant",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "vite",
