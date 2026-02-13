@@ -42,6 +42,19 @@
 
 Main TON monorepo, which includes the code of the node/validator, lite-client, tonlib, FunC compiler, etc.
 
+## 🎨 Idiacoin Demo Web Application
+
+Experience Idiacoin in action! We've created a user-friendly demo web application that showcases the main features of blockchain interaction:
+
+- **📊 Balance View**: Check your wallet balance with real-time USD conversion
+- **💸 Transfer Coins**: Send IDIA tokens with an intuitive interface
+- **📜 Transaction History**: Browse and filter your transaction history
+- **🤖 Aza AI Assistant**: Get help from our intelligent AI chatbot
+
+👉 **[View Demo Documentation](./demo/README.md)** | **[Deployment Guide](./demo/DEPLOYMENT.md)**
+
+Built with React, Vite, and Tailwind CSS. Ready to deploy to Vercel, Netlify, or any static hosting platform.
+
 ## The Open Network
 
 __The Open Network (TON)__ is a fast, secure, scalable blockchain focused on handling _millions of transactions per second_ (TPS) with the goal of reaching hundreds of millions of blockchain users.
