@@ -44,6 +44,8 @@ Main TON monorepo, which includes the code of the node/validator, lite-client, t
 
 ## 🎨 Idiacoin Demo Web Application
 
+**[🚀 View Live Demo](https://idiacoin-demo.vercel.app)** _(Coming Soon - Deploy to get your URL)_
+
 Experience Idiacoin in action! We've created a user-friendly demo web application that showcases the main features of blockchain interaction:
 
 - **📊 Balance View**: Check your wallet balance with real-time USD conversion

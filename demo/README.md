@@ -2,6 +2,13 @@
 
 A modern, user-friendly web application showcasing the main features of Idiacoin blockchain, built on The Open Network (TON). This demo features an integrated AI assistant called "Aza" to help users navigate and understand blockchain operations.
 
+## 🌐 Live Demo
+
+**[View Live Demo →](https://idiacoin-demo.vercel.app)** _(Coming Soon - Deploy to get your URL)_
+
+> **Deploy in 5 minutes**: See [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) for fastest deployment guide  
+> **Note**: After deploying, replace the URL above with your actual deployment URL.
+
 ![Idiacoin Demo](../Idia%20logo.png)
 
 ## 🌟 Features

@@ -2,11 +2,14 @@
 
 This guide provides step-by-step instructions for deploying the Idiacoin demo web application to various hosting platforms.
 
+> **Quick Start**: For fastest deployment and getting your live URL, see [QUICK_DEPLOY.md](./QUICK_DEPLOY.md)
+
 ## Table of Contents
 - [Vercel Deployment](#vercel-deployment)
 - [Netlify Deployment](#netlify-deployment)
 - [Other Platforms](#other-platforms)
 - [Environment Configuration](#environment-configuration)
+- [After Deployment - Update Live URL](#after-deployment---update-live-url)
 
 ## Vercel Deployment
 
@@ -324,6 +327,43 @@ Both Vercel and Netlify support automatic deployments:
 - [Vercel Documentation](https://vercel.com/docs)
 - [Netlify Documentation](https://docs.netlify.com)
 - [Vite Deployment Guide](https://vitejs.dev/guide/static-deploy.html)
+
+## After Deployment - Update Live URL
+
+Once you have successfully deployed your demo application, **update the README files** with your live URL:
+
+### 1. Update `/demo/README.md`
+
+Find line 7 and replace the placeholder URL:
+```markdown
+**[View Live Demo →](YOUR_ACTUAL_URL_HERE)**
+```
+
+Example:
+```markdown
+**[View Live Demo →](https://idiacoin-demo-abc123.vercel.app)**
+```
+
+### 2. Update `/README.md` (main repository README)
+
+Find the Idiacoin Demo section and update the live demo link:
+```markdown
+**[🚀 View Live Demo](YOUR_ACTUAL_URL_HERE)**
+```
+
+### 3. Commit and Push Changes
+
+```bash
+git add README.md demo/README.md
+git commit -m "Update live demo URL"
+git push
+```
+
+### Your Live URL Examples
+
+- **Vercel**: `https://idiacoin-demo.vercel.app` or `https://your-project-xyz.vercel.app`
+- **Netlify**: `https://idiacoin-demo.netlify.app` or `https://your-site-name.netlify.app`
+- **Custom Domain**: `https://demo.yourdomain.com`
 
 ---
 
